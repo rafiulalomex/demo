@@ -1,0 +1,78 @@
+/**
+ * /* Extra large devices (large desktops, 1200px and up)
+ *
+ * @format
+ */
+
+@media (min-width: 1200px) {}
+@media (min-width: 320px) and (max-width: 1200px) {
+     
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cart_area div {
+        display: inline-block;
+        margin: 0 1px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .hidemobile{
+        display: none;
+    }
+}
+
+/* All Mobile Devices */
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .hidemobile{
+        display: none;
+    }
+     
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/*  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .slicknav_menu {
+        display: block;
+    }
+    .hidemobile{
+        display: none;
+    }
+
+    .logomobilewidth {
+        width: 40%;
+    }
+    
+    .cartmobilewidth {
+        width: 60%;
+        padding: 0;
+    }
+    
+    .cart_area div {
+        margin: 0 3px;
+    }
+    
+    .signin button {
+        width: 74px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+     
+}
